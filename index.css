@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+}
+
+:root{
+    --principaç: blue;
+    --secundaria: #3D4071;
+}
+
+.container{
+    background-color: var(--secundaria);
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    text-align: flex;
+    background: url("https://img.freepik.com/fotos-gratis/circuito-de-tecnologia-azul-e-roxo_73426-205.jpg?w=826");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    border-radius: 10%;
+    margin: 50px;
+}
+
+.textos {
+    display: block;
+    margin-top: 20px;
+    
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: rgb(192, 128, 194);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cargo {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(192, 128, 194);
+}
+
+.menu ul{
+    height: 50px;
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    
+    padding: 5px 10px;
+    display: inline-block;
+
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: blue;
+    background-color: aqua;
+    border-bottom: 3px solid blue;
+}
+
+.main {
+    height: 500px;
+    background-color: rgb(79, 150, 216);
+    display: block;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.main p {
+    margin-top: 30px;
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    height: 200px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
